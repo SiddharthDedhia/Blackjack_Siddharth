@@ -1,0 +1,63 @@
+body {
+    background-image: url('https://mk0gamesnetentcxytko.kinstacdn.com/wp-content/uploads/2018/09/blackjack_background.jpg');
+    /* background: #f5d9d5; */
+    color: white;
+    font-family: "Nunito", sans-serif;
+}
+
+.main_container {
+    width: 75%;
+    padding: 4px;
+    margin: 10 auto;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+table , th , td {
+    text-align: center;
+    /* border: 1px solid white; */
+    padding: 10px;
+    font-style: italic;
+}
+
+.play_area {
+    color: white; /*change tet color so easier to read*/
+}
+
+.row_1 , .row_2 , .row_3{
+    display: flex;
+    padding: 4px; 
+    flex-wrap: wrap; /*to shift data to next row when it reaches end*/
+    flex-direction: row; /*stacks the flex items horizontally*/
+    justify-content: space-around; /*Align the flex items at the center of the container*/   
+}
+
+.row_1  div{
+    border: 1px solid white;
+    padding: 10px;
+    flex: 3; /*Let all the flexible items be the same length, regardless of its content*/
+    height: 375px;
+    text-align: center;
+    
+}
+
+.row_1 img {
+    width: 20%;
+    padding: 10px;
+}
+
+.row_2 button , .row_2 div{
+    padding: 10px;
+}
+
+#reset_game{
+
+    padding: 10px;
+    flex: 3; /*Let all the flexible items be the same length, regardless of its content*/
+    text-align: center;
+    
+}
+
+h2{
+    font-style: italic;
+}
